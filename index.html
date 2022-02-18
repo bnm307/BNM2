@@ -201,7 +201,7 @@ body {
 }
 .mast > header {
   z-index: 2;
-  position: relative;
+  position: center;
 }
 .mast__bg {
   position: absolute;
@@ -222,7 +222,7 @@ body {
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 0.3em;
-  text-transform: uppercase;
+  text-transform: none;
 }
 .mast__title span {
   -webkit-animation: letter-glow 0.7s 0s ease both;
@@ -1059,7 +1059,6 @@ body {
   -webkit-animation-delay: 9s;
           animation-delay: 9s;
 }
-
 @-webkit-keyframes letter-glow {
   0% {
     opacity: 0;
@@ -1077,7 +1076,6 @@ body {
     text-shadow: 0px 0px 20px rgba(255, 255, 255, 0);
   }
 }
-
 @keyframes letter-glow {
   0% {
     opacity: 0;
@@ -1101,21 +1099,18 @@ body {
 <main>
  
 <header class="mast__header">
-         <h1 class="mast__title js-spanize">Dad's Website</h1> 
-      <hr class="sep"/>
-      <p class="mast__text js-spanize">
-Welcome to my site,
-Stay tune for new cool stuff. 
-Updates will be here soon. 
-And Don't Forget...Donations are always welcomed...☺</p>
-
-  </header>
- 
+   <h1 class="mast__title js-spanize">Dad's Website</h1> 
+   	<hr class="sep"/>
+    	<p class="mast__text js-spanize">
+		Welcome to my site,
+		Stay tune for new cool stuff. 
+		Updates soon. 
+		And Don't Forget...Donations are always welcomed...☺</p>
+</header>
 </main>
     
   <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
       <script id="rendered-js" >
-
 
 (function ($) {
   var s,
@@ -1139,7 +1134,6 @@ And Don't Forget...Donations are always welcomed...☺</p>
 })(jQuery);
 //# sourceURL=pen.js
     </script>
-
 
 <style>
   body {
